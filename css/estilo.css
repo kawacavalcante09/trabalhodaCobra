@@ -1,0 +1,37 @@
+.btnJogar{
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin: 20px 0px;
+    font-size:20px;
+    font-family:fantasy;
+    filter:none;
+}
+
+.divCobra {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    top: 20%;
+    background-color: #23cf1da6; 
+    width: 360px;
+    filter:none;
+}
+.imgCobra{
+    width: 200px;
+    filter:none;
+}
+.telaInvisivel{
+    display: none;
+}
+
+.blur-fundo{
+    filter: blur(5px);
+    pointer-events: none; 
+}
